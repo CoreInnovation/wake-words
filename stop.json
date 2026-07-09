@@ -1,6 +1,6 @@
 {
   "type": "micro",
-  "wake_word": "stop",
+  "wake_word": "Stop",
   "author": "ChrisKit",
   "website": "https://github.com/CoreInnovation/wake-words",
   "model": "stop.tflite",
@@ -9,7 +9,7 @@
   ],
   "version": 2,
   "micro": {
-    "probability_cutoff": 0.97,
+    "probability_cutoff": 0.6,
     "feature_step_size": 10,
     "sliding_window_size": 5,
     "tensor_arena_size": 30000,
