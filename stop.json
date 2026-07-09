@@ -2,8 +2,8 @@
   "type": "micro",
   "wake_word": "stop",
   "author": "ChrisKit",
-  "website": "",
-  "model": "./stop.tflite",
+  "website": "https://github.com/CoreInnovation/wake-words",
+  "model": "stop.tflite",
   "trained_languages": [
     "en"
   ],
