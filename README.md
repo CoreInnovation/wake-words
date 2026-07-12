@@ -19,6 +19,9 @@ playback via the hardware amp mute and go back to sleep):
   mic), so single-syllable stops require her name. 3000 samples;
   nina_stop 98.7% recall / ~1.7 faph @ 0.70, nina_hush ~96% recall /
   ~0-0.2 faph @ 0.70.
+- **stop_nina** / **hush_nina** - the same interrupts in inverse order
+  (v18, Chris's ask): stop_nina ~95.7% recall / ~1.1 faph @ 0.70,
+  hush_nina ~98.3% recall / ~0.75 faph @ 0.70. 3000 samples each.
 - **never_mind** / **shut_up** - multi-word interrupts, still bare
   (96% recall @ 0.6 for never_mind). be_quiet / cancel are trained and
   published but not currently loaded (tensor arena budget).
